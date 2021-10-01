@@ -6,8 +6,8 @@ import java.util.concurrent.Semaphore;
 
 public class ThreadC implements Runnable {
 
-	private Semaphore semaphore = new Semaphore(0);
-	private Semaphore SN = new Semaphore(0);
+	private Semaphore semaphore; // = new Semaphore(0);
+	private Semaphore SN; // = new Semaphore(0);
 
 		
 		public ThreadC(Semaphore S, Semaphore SP) {
